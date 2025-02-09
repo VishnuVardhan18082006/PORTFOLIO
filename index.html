@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <header>
+        <div class="nav">
+            <p onclick="navClick(1)" style="background-color: red;" id="nHome">Home</p>
+            <p onclick="navClick(2)" id="nProjects">Projects</p>
+            <p onclick="navClick(3)" id="nAch">Achievements</p>
+            <p onclick="navClick(4)" id="nContact">Contact</p>
+             </div>
+    </header>
+    <div class="home" id="home">
+        <div class="h">
+            <h1>Home</h1>
+            <p><b>Welcome To My Portfolio</b></p>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src="Vishnu Image.jpg" alt="Vishnu Vardhan">
+            </div>
+            <br>
+            <p class="slide-up"><b>I'm VISHNU VARDHAN A of R.M.K college of engineering and technology pursuing undergraduate in B.E COMPUTER SCIENCE AND ENGINEERING.<b></p>
+            <br>
+            <p class="slide-up"><b>An Aspiring Engineer interested in Web Develpoment.<b></p>
+            <br>
+            <p class="slide-up"><b>And I Love To make Interactive Web Pages.<b></p>
+            </br>
+        </div>
+    </div>
+
+    <div class="ach" id="ach" style="display: none;">
+        <center><h1>My Achievements</h1></center>
+        <div class="aImg">
+            <img src="Na_Nov_30.jpg"  alt="">
+        </div>
+        <div class="sq" id="sq">
+            <div class="sqa">
+                <h2>C++</h2>
+                <img src="Screenshot 2025-01-29 171756.png" alt="">
+            </div>
+            <div class="sqa">
+                <h2>SDP</h2>
+                <img src="Screenshot 2025-01-29 171822.png" alt="">
+            </div>
+            <div class="sqa">
+                <h2>HTML</h2>
+                <img src="Screenshot 2025-01-29 171904.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="projects" id="projects" style="display: none;">
+        <center><h1>My Projects</h1></center>
+        <div class="pboxes">
+           <div class="pbox">
+                <h1>WebPage-Royal Enfield Collection</h1><br>
+                <p>The Royal Enfield bike cart webpage is a sleek, user-friendly platform showcasing a collection of iconic motorcycles.Explore nine iconic Royal Enfield motorcycles, each crafted for adventure, style, and performance. The design features high-quality images and detailed descriptions of each bike, highlighting their unique features, performance specs, and design elements. From the classic Bullet 350 to the modern Meteor 350, every bike offers a unique experience on the road. Whether you’re a seasoned rider or a beginner, our range delivers the perfect balance of heritage and innovation. Find your ideal bike and embark on your next journey with Royal Enfield.</p>
+                <br>
+                <a href="https://vishnuvardhan18082006.github.io/CODSOFT/">Project_1</a>
+            </div>
+            <div class="pbox">
+                <h1>Calculator </h1><br>
+                <div>                
+                    <p>This calculator, designed using an HTML grid layout, provides a simple and intuitive interface for performing basic arithmetic operations. The grid structure allows for easy alignment of buttons in rows and columns, making it user-friendly. The calculator includes essential functions like addition, subtraction, multiplication, division, modulo, and a clear (AC) function for resetting calculations. Each button is carefully placed within the grid, ensuring a smooth user experience. The layout is responsive, adjusting for different screen sizes, and the grid-based design ensures consistent spacing and alignment, offering a neat, organized, and efficient calculator interface.</p>
+                    <br>
+                    <a href="https://vishnuvardhan18082006.github.io/CODSOFT-CALCULATOR/">Project_2</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact" style="display: none;">
+        <center><h1>Contact Me</h1></center>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:2006.vishnu07@gmail.com">2006.vishnu07@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p><a href="tel:9629269527">9629269527</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Social Media</h3>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/your-username" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send me a message</h3>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-footer">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+                <a href ="#" class="nav-link px-2 text-body-secondary">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a href ="#" class="nav-link px-2 text-body-secondary">Contact</a>
+            </li>
+
+            <li class="nav-item">
+                <a href ="#" class="nav-link px-2 text-body-secondary">Help</a>
+            </li>
+
+            <li class="nav-item">
+                <a href ="#" class="nav-link px-2 text-body-secondary">FAQ'S</a>
+            </li>
+
+            <li class="nav-item">
+                <a href ="#" class="nav-link px-2 text-body-secondary">About</a>
+            </li>
+        </ul>
+        <p class="text-center text-body-secondary">&copy;2025 Company, Inc. All Rights Are Reserved.</p>
+        </footer>
+    </footer>
+</div>
+
+           
+</body>
+<script src="script.js"></script>
+</html>
